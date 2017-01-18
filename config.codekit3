@@ -3847,24 +3847,6 @@
 		"oAP": "\/build\/build",
 		"oF": 0
 		},
-	"\/CHANGELOG.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/build\/CHANGELOG.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/css\/app.css": {
 		"aP": 0,
 		"bl": 0,
@@ -3879,12 +3861,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/css\/app.css.map",
-		"oF": 0
-		},
-	"\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/index.html",
 		"oF": 0
 		},
 	"\/js\/app.js": {
@@ -3919,6 +3895,38 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/pug\/index.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/pug\/partials\/_foot.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/pug\/_foot.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/pug\/partials\/_head.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/pug\/_head.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/pug\/partials\/_header.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/pug\/_header.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -3927,9 +3935,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/build\/README.html",
-		"oF": 0,
+		"oA": 2,
+		"oAP": "\/build\/README.md",
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -5812,7 +5820,7 @@
 		"autoOutputPathRelativePath": "..\/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 2,
 		"compileDebug": 1,
 		"outputStyle": 0
 		},
