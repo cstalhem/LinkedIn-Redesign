@@ -49,12 +49,12 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 
-$light-gray: rgb(248, 249, 250);
-$medium-gray: rgb(236, 236, 236);
-$dark-gray: rgb(97, 97, 97);
-$black: rgb(51, 51, 51);
+$light-gray: rgb(236, 238, 240);
+$medium-gray: rgb(150, 150, 150);
+$dark-gray: rgb(61, 63, 72);
+$black: rgb(16, 16, 16);
 $white: #ffffff;
-$foundation-palette: ( primary: rgb(129, 184, 249), secondary: $medium-gray, success: #3adb76, warning: #ffae00, alert: #cc4b37, );
+$foundation-palette: ( primary: rgb(48, 118, 176), secondary: $medium-gray, success: #3adb76, warning: #ffae00, alert: #cc4b37, );
 
 $body-background: $white;
 $body-font-color: $black;
