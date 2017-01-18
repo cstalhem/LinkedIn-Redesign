@@ -5,11 +5,21 @@ html(class="no-js" lang="en")
   body
     include partials/_header
 
-    .row.user-top
-      .small-12.medium-2.columns
-        .linked-in-logo
-      .small-12.medium-10.columns.user-name-container
-        p.user-title Senior Front-End Developer
-        h2.user-name Jessica Smith
+    .box.user-top
+      .row
+        .small-12.medium-2.columns
+          .linked-in-logo
+        .small-12.medium-10.columns.user-name-container
+          p.user-title Senior Front-End Developer
+          h2.user-name Jessica Smith
+
+    .row
+      .small-12.medium-10.columns.user-main-container
+        .box.user-meta
+        .box.shortcuts
+
+      .small-12.medium-2.columns.user-sidebar
+        .box.join-now
+        .box.others-viewed
 
     include partials/_foot
