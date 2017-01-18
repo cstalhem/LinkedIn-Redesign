@@ -1,10 +1,10 @@
-.user-top {
-  padding: $global-padding 0;
-}
+.user-top {}
 
 .user-name-container {
-  border-left: 2px solid $light-gray;
-  padding-left: $global-padding;
+  .wrapper {
+    border-left: 2px solid $light-gray;
+    padding-left: $global-padding;
+  }
 }
 
 .user-title {
