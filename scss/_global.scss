@@ -1,0 +1,6 @@
+.box {
+  @include box-shadow(1);
+  background-color: $white;
+  padding: $global-padding;
+  margin-bottom: $global-margin;
+}
