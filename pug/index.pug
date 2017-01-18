@@ -7,19 +7,29 @@ html(class="no-js" lang="en")
 
     .box.user-top
       .row
-        .small-12.medium-2.columns
+        .small-12.medium-3.columns
           .linked-in-logo
-        .small-12.medium-10.columns.user-name-container
-          p.user-title Senior Front-End Developer
-          h2.user-name Jessica Smith
+            p Logo
+        .small-12.medium-9.columns.user-name-container
+          .wrapper
+            p.user-title Senior Front-End Developer
+            h2.user-name Jessica Smith
 
     .row
-      .small-12.medium-10.columns.user-main-container
-        .box.user-meta
-        .box.shortcuts
+      .small-12.medium-9.columns
+        .row
+          .small-12.medium-8.medium-offset-4.columns
+            .box.user-meta
+          .small-12.medium-3.medium-offset-1.columns
+            .box.shortcuts
+          .small-12.medium-8.columns
+            .box.experience
 
-      .small-12.medium-2.columns.user-sidebar
-        .box.join-now
-        .box.others-viewed
+      .small-12.medium-3.columns
+        .small-12.columns
+          .box.join-now
+            p Is Jessica your colleague?
+        .small-12.columns
+          .box.others-viewed
 
     include partials/_foot
