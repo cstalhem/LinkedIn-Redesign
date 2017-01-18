@@ -1,0 +1,19 @@
+.user-top {
+  padding: $global-padding 0;
+}
+
+.user-name-container {
+  border-left: 2px solid $light-gray;
+  padding-left: $global-padding;
+}
+
+.user-title {
+  line-height: 100%;
+  margin-bottom: $global-margin / 2;
+  color: $secondary-color;
+}
+
+.user-name {
+  margin-bottom: 0;
+  line-height: 100%;
+}
